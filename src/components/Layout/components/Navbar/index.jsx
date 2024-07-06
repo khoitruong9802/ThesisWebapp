@@ -41,7 +41,6 @@ const Navbar = ({ children }) => {
 
   return (
     <div className="flex flex-col w-44 bg-blue-200 gap-y-8 py-4 gap-x-8 h-screen shrink-0 overflow-auto">
-      <h1>aaa</h1>
       {routes.map((item, index) => (
         <div
           className={`p-2 w-full font-medium ${
